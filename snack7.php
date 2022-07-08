@@ -68,6 +68,8 @@ foreach($classe65 as $alunno){
  $alunno['media'] = $media;
 };
 
+var_dump($classe65);
+
 ?>
 
 <!DOCTYPE html>
