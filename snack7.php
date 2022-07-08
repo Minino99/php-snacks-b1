@@ -66,9 +66,6 @@ foreach ($classe65 as $key => $alunno) {
    $media = $sommavoti / count($alunno['voti']);
    $classe65[$key]['media'] = $media;
 };
-
-var_dump($classe65);
-
 ?>
 
 <!DOCTYPE html>
